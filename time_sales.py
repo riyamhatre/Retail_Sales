@@ -50,7 +50,7 @@ def app():
         with col1: 
             # Sales by Day of Week
             sales_by_day = data.groupby('DayofWeek')['TotalPrice'].sum()
-            fig1, ax1 = plt.subplots(figsize=(10, 5))
+            fig1, ax1 = plt.subplots(figsize=(10, 6))
             sales_by_day = sales_by_day.reindex(['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'])
             sales_by_day.plot(kind='bar', color='#96c0b7', ax = ax1)
             ax1.bar_label(ax1.containers[0], fmt='%.0f', label_type='edge')
@@ -62,7 +62,7 @@ def app():
 
         with col2: 
             # Sales by Hour
-            fig2, ax2 = plt.subplots(figsize=(10, 5))
+            fig2, ax2 = plt.subplots(figsize=(10, 6))
             data['Hour'] = pd.to_datetime(data['InvoiceDate']).dt.hour
             sales_by_hour = data.groupby('Hour')['TotalPrice'].sum()
             sales_by_hour.plot(kind='bar', color='#96c0b7', ax = ax2)
