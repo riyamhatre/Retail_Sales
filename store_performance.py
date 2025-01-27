@@ -6,7 +6,7 @@ import plotly.express as px
 def app():
     st.write('<p style="font-size:33px;"><b>Store Performance</b></p>', unsafe_allow_html=True)
     st.write('<p style="font-size:20px;">Analyzing the top ten countries by revenue and product provides valuable customer insights. Revenue leaders identify high-performing markets, guiding resource allocation and strategy. Examining countries by product highlights consumer preferences, revealing where specific offerings resonate. Together, these insights uncover opportunities for targeted marketing, product development, and expansion.</p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:33px;"><b>Hover over a shaded country to see more stats!</b></p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:20px;"><b>Hover over a shaded country to see more stats!</b></p>', unsafe_allow_html=True)
     df = pd.read_csv('cleaned_data.csv').drop(columns={'Unnamed: 0'})
 
     def inside():
