@@ -116,7 +116,7 @@ def app():
             plt.ylabel('Revenue', fontsize=15, fontfamily='serif')
             st.pyplot(fig2)
 
-        st.write('<p style="font-size:20px;">Now things get a little interesting! In the data, there are negative values for the unit price, which indicate that a customer returned the product. Let us see what the top to returned products are, shall we?</p>', unsafe_allow_html=True)
+        st.write('<p style="font-size:20px;">Now things get a little interesting! In the data, there are negative values for the unit price, which indicate that a customer returned the product. Let us see what the top 10 returned products are, shall we?</p>', unsafe_allow_html=True)
     
         # Most Returned
         returned = data[data['Returned'] == True]
