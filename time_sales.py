@@ -43,6 +43,7 @@ def app():
 
         st.write('<p style="font-size:15px;"Here, we have the sales trend over time. Observe which months have more sales or less sales. This could be due to various reasons, such as holidays or weather conditions, which we will look into closely later.</p>', unsafe_allow_html=True)
         st.plotly_chart(fig)
+        st.write('<p style="font-size:20px;">Now, let us see if the customers purchase more on weekends or weekdays or certain times of the day.</p>', unsafe_allow_html=True)
         
         col1, col2 = st.columns(2)
 
@@ -57,8 +58,6 @@ def app():
             plt.title('Revenue by Day of Week',fontsize=20, fontfamily='serif')
             plt.xlabel('Day of Week',fontsize=15, fontfamily='serif')
             plt.ylabel('Revenue',fontsize=15, fontfamily='serif')
-
-            st.write('<p style="font-size:20px;">Now, let us see if the customers purchase more on weekends or weekdays or certain times of the day.</p>', unsafe_allow_html=True)
             st.pyplot(fig1)
 
         with col2: 
@@ -67,7 +66,7 @@ def app():
             data['Hour'] = pd.to_datetime(data['InvoiceDate']).dt.hour
             sales_by_hour = data.groupby('Hour')['TotalPrice'].sum()
             sales_by_hour.plot(kind='bar', color='#96c0b7', ax = ax2)
-            ax2.bar_label(ax.containers[0], fmt='%.0f', label_type='edge')
+            ax2.bar_label(ax2.containers[0], fmt='%.0f', label_type='edge')
             plt.title('Revenue by Hour of Day',fontsize=20, fontfamily='serif')
             plt.xticks(rotation=45, ha='right')
             plt.xlabel('Hour',fontsize=15, fontfamily='serif')
