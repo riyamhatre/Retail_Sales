@@ -86,7 +86,7 @@ def app():
             graphs(list(df['Country'].unique()))  # Pass all countries if "All" is selected
         else:
             dataset = df[df['Region'].isin(region)]  # Filter dataset by selected regions
-            countries = st.selectbox('Select Countries', ['All'] + list(dataset['Country'].unique()))  # Select countries
+            countries = st.selectbox('Select a Country', ['All'] + list(dataset['Country'].unique()))  # Select countries
             if countries:
                 if countries == "All":
                     graphs(list(dataset['Country'].unique()))  # Pass all countries if "All" is selected
