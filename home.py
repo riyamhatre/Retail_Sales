@@ -16,7 +16,7 @@ def app():
              insights into sales trends, customer behavior, and purchasing patterns. It serves as a 
              rich resource for analyzing various aspects of retail sales and customer segmentation.""")
     
-    st.write("""Using data, I will analyze sales trends and perform customer segmentation to identify distinct purchasing 
+    st.write("""Using this dataset, I will analyze sales trends and perform customer segmentation to identify distinct purchasing 
              patterns and target key customer groups effectively. By leveraging advanced analytics techniques, 
              I will uncover drivers of high sales and pinpoint low-performing categories, providing actionable 
              insights for improvement. Incorporating external factors such as holidays, weather, and location 
@@ -28,8 +28,8 @@ def app():
     
 
     st.write("""
-The main questions we aim to answer in this analysis revolve around understanding sales performance and customer behavior in-depth. 
-We will explore the following key points:
+The main questions I aim to answer in this analysis revolve around understanding sales performance and customer behavior in-depth. 
+I will explore the following key points:
 """)
 
     # Bullet points for main questions
@@ -48,4 +48,4 @@ We will explore the following key points:
     - **Impact of Holidays**
     """)
 
-    st.write('These KPIs will help us derive actionable insights and ensure our strategy aligns with business objectives.')
+    st.write('These KPIs will help derive actionable insights and ensure our strategy aligns with business objectives.')
