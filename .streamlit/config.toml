@@ -1,0 +1,8 @@
+
+[theme]
+base="light"
+primaryColor="#403d58"
+secondaryBackgroundColor="#e4efe9"
+textColor="#333333"
+font="serif"
+wideMode = true
