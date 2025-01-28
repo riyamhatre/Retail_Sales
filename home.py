@@ -44,7 +44,7 @@ I will explore the following key points:
     To guide this analysis, I will track and analyze the following key performance indicators (KPIs):
     - **Revenue Growth**  
     - **Sales by Location**  
-    - **Customer Return Rates**  
+    - **Customer Retention Rates**  
     - **Impact of Holidays**
     """)
 
