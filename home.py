@@ -36,7 +36,7 @@ I will explore the following key points:
     st.markdown("""
     - **What are the primary factors influencing sales?**  
     - **How do customer demographics and behaviors vary across different locations?**  
-    - **How do external factors, such as weather and holidays, impact sales?**  
+    - **How do external factors, such as holidays, impact sales?**  
     """)
 
     # KPI explanation
@@ -44,7 +44,7 @@ I will explore the following key points:
     To guide this analysis, I will track and analyze the following key performance indicators (KPIs):
     - **Revenue Growth**  
     - **Sales by Location**  
-    - **Customer Retention Rates**  
+    - **Customer Return Rates**  
     - **Impact of Holidays**
     """)
 
