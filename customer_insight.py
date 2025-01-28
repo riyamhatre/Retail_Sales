@@ -173,7 +173,7 @@ def app():
         cluster_analysis.columns = ['Cluster', 'Avg_Total_Purchase', 'Total_Purchase', 'Avg_Purchase', 'Avg_Frequency', 'Avg_Returns', 'Customer_Count']
         st.write(cluster_analysis)
 
-        st.write('<p style="font-size:25px;"><b>Cluster 0: Regular Shoppers</b></p>', unsafe_allow_html=True)
+        st.write('<p style="font-size:25px;"><b>Cluster 0: Budget-Conscious Regular Shoppers</b></p>', unsafe_allow_html=True)
         st.write("""
         - These customers make frequent, smaller purchases, contributing steadily to overall revenue.
         - They have occasional returns but represent the majority of the customer base.
@@ -187,7 +187,7 @@ def app():
         - Retention strategies and **personalized offers** could help maintain loyalty and maximize revenue.""")
 
         # Cluster 2: Moderate Spenders
-        st.write('<p style="font-size:25px;"><b>Cluster 2: Moderate Spenders</b></p>', unsafe_allow_html=True)
+        st.write('<p style="font-size:25px;"><b>Cluster 2: Occasional Buyers</b></p>', unsafe_allow_html=True)
         st.write("""
         - Customers who make **infrequent transactions** but spend significantly when they shop.
         - They contribute moderately to overall revenue and rarely return items.
