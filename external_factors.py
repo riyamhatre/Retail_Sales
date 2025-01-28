@@ -94,7 +94,7 @@ def app():
         st.pyplot(fig2)
 
 
-    st.write('<p style="font-size:20px;">Let us see some statistics to determine if holidays affect revenue and number of product purchases.</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:20px;">Let us see some statistics to determine if holidays affect revenue and number of product purchased.</p>', unsafe_allow_html=True)
 
     st.write('<p style="font-size:20px;"><b>1. Does the presence of a holiday affect revenue?</b></p>', unsafe_allow_html=True)
 
