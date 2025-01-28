@@ -59,6 +59,8 @@ def app():
             
         st.write('<p style="font-size:20px;">The United Kingdom leads in both revenue and product sales, thanks to its strong local presence, brand recognition, and customer loyalty. Analyzing the UK’s success offers strategies that could be adapted for other regions, helping businesses replicate this success globally.</p>', unsafe_allow_html=True)
 
+        st.subheader("Top 10/Bottom 10 Products Sold and Revenue For Select Countries")
+        
         st.write('<p style="font-size:20px;">Analyzing the top 10 products by sales and revenue reveals customer preferences, demand patterns, and high-value items. This dual perspective helps businesses refine strategies, optimize pricing, and tailor product offerings to local markets, ensuring greater customer satisfaction and financial success.</p>', unsafe_allow_html=True)
     
         st.write('<p style="font-size:20px;">Reviewing the bottom 10 products by sales and revenue helps identify underperforming items. Low sales may indicate poor demand or ineffective strategies, while low revenue highlights products with weak profit margins. Analyzing these trends allows businesses to make informed decisions about product adjustments and improve overall profitability.</p>', unsafe_allow_html=True)
