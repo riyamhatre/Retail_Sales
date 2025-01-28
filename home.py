@@ -41,7 +41,7 @@ I will explore the following key points:
 
     # KPI explanation
     st.write("""
-    To guide this analysis, we will track and analyze the following key performance indicators (KPIs):
+    To guide this analysis, I will track and analyze the following key performance indicators (KPIs):
     - **Revenue Growth**  
     - **Sales by Location**  
     - **Customer Retention Rates**  
