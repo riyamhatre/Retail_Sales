@@ -30,8 +30,8 @@ def app():
 
 		4. **Customer Behavior and Revenue Drivers**  
 		- **Customer Segments**:  
-			- *Budget-Conscious Shoppers*: Frequent buyers of lower-cost items, contributing to volume.  
-			- *High-Spending Loyal Customers*: Smaller group with significant impact on revenue.  
+			- *Budget-Conscious Regular Shoppers*: Frequent buyers of lower-cost items, contributing to volume.  
+			- *High-Value Buyers*: Smaller group with significant impact on revenue.  
 			- *Occasional Buyers*: Less frequent shoppers who still add value to sales.  
 		- **Key Insight**: Each additional purchase has a larger impact on total revenue than increasing the quantity per transaction, but both contribute positively.  
 		- **Recommendations**:  
